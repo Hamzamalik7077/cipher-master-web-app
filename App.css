@@ -1,0 +1,89 @@
+/* App.css */
+
+body {
+  background-image: url('enc.avif'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Ensures the background image stays fixed as you scroll */
+  background-color: #f4f4f9; /* Fallback background color */
+  font-family: 'Arial', sans-serif;
+  font-family: gloridot, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.key-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add space between logo and text */
+}
+
+h1 {
+  font-size: 2em;
+  color: #980c88;
+  margin-bottom: 20px;
+  
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="radio"] {
+  margin: 10px;
+}
+
+label {
+  font-size: 1em;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
